@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/narrative/chat_day1.rpy", line 36, in script
+    $ chat_message(_("elimf: and that's when i literally took a handful of mud and",fastmode=True))
+  File "game/narrative/chat_day1.rpy", line 36, in <module>
+    $ chat_message(_("elimf: and that's when i literally took a handful of mud and",fastmode=True))
+TypeError: _() got an unexpected keyword argument 'fastmode'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/narrative/chat_day1.rpy", line 36, in script
+    $ chat_message(_("elimf: and that's when i literally took a handful of mud and",fastmode=True))
+  File "D:\APPS\Ren'Py\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\APPS\Ren'Py\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/narrative/chat_day1.rpy", line 36, in <module>
+    $ chat_message(_("elimf: and that's when i literally took a handful of mud and",fastmode=True))
+TypeError: _() got an unexpected keyword argument 'fastmode'
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.4.24120703
+seekL 1.0
+Mon Dec 23 20:32:56 2024

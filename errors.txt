@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/narrative/chat_day1.rpy", line 36: invalid syntax
+    chat_message(-("elimf: and that's when i literally took a handful of mud and",fastmode=True))
+                                                                                           ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Mon Dec 23 20:32:11 2024
